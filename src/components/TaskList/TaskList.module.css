@@ -1,0 +1,30 @@
+.list {
+  padding: var(--spacing-md);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: var(--text-light);
+}
+
+.listItem {
+  margin-bottom: var(--spacing-sm);
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
